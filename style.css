@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe ui';
+}
+
+ol{
+    font-size: 20pt;
+}
+body{
+    font-size: 14pt;
+    box-sizing: border-box;
+}
+section {
+    width: 70%;
+    max-width: 1080px;
+    min-width: 720px;
+    margin: auto;
+}
+.block{
+    font-family: monospace;
+    background-color: rgb(61, 195, 240);
+    padding: 10px;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.block:hover{
+    background-color: rgb(206, 206, 235);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
